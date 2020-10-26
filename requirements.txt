@@ -1,5 +1,5 @@
 asgiref==3.2.10
 Flask==1.1.2
-
+gunicorn== 19.9.0 
 
 
