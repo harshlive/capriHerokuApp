@@ -64,7 +64,6 @@ sqlparse==0.3.1
 tabulate==0.8.7
 threadpoolctl==2.1.0
 toml==0.10.1
-traitlets==5.0.3
 uritemplate==3.0.1
 urllib3==1.25.9
 Werkzeug==1.0.1
