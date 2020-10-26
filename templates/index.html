@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+    <title>LMS</title>
+    <style>
+        .logo {
+            height: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"> <img class="logo" src="{{url_for('static', filename='capriglobal.jpg')}}" alt="CapriGlobal ltd."> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Loan Management System<span class="sr-only">(current)</span></a>
+                </li>  
+              
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+               
+                <div>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+               
+    </nav>
+
+
+    <form class="my-form">
+        <div class="container">
+            <label> <h2> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                Account Details</h2> </label> 
+    
+
+          <div class="grid grid-2">
+                <label>Account Name: </label>   <input type="text" value="Reflexis" />  
+          </div>
+          <div class="grid grid-2">
+            <label>Account Address: </label>   <input type="text"  placeholder="Pune" />  
+            </div>
+            <div class="grid grid-2">
+                <label>Phone: </label>   <input type="text" placeholder="7845127845" />  
+          </div>
+            
+          <div class="grid grid-2">
+            <label>Email Id: </label>   <input type="text" value="reflexis@gmail.com" />  
+      </div>
+
+      <br><br>
+      <label> <h2> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+          &nbsp; &nbsp; &nbsp; Loan Details</h2> </label>          
+       
+      <div class="grid grid-2">
+            <label>Loan Account Number: </label>   <input type="text" value="L-00001" />  
+    </div>    
+        
+        <div class="grid grid-2">
+            <label>Loan Type: </label>   <input type="text" value="MSME" />  
+    </div>
+        
+        <div class="grid grid-2">
+            <label>Loan Amount: </label>   <input type="text" value="750000" />  
+    </div>
+    <div class="grid grid-2">
+        <label>Rate Of Interest: </label>   <input type="text" value="11.5%" />  
+</div>    
+    
+    <div class="grid grid-2">
+        <label>Last Payment Amount: </label>   <input type="text" value="125000" />  
+</div>
+    
+    <div class="grid grid-2">
+        <label>Last Payment Date: </label>   <input type="text" value="28/12/2020" />  
+</div>
+
+<br><br><br><br><br><br><br><br>
+        <label><h6> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp;      
+            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp;     &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp;    
+               Capri Global Capital Limited </h6></label>
+        </div>
+   
+
+    
+
+
+        
+      </form>
+</body>
+</html>
