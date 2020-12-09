@@ -7,8 +7,14 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    print(request.args.get("name"))
-    return render_template('index.html', act_name=request.args.get("name"))
+    # print(request.args.get("name"))
+    return render_template('index.html')
+
+
+@app.route('/thank-you')
+def thankyou():
+    # print(request.args.get("name"))
+    return render_template('index2.html')
 
 
 if __name__ == "__main__":
