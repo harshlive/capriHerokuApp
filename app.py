@@ -8,13 +8,13 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     # print(request.args.get("name"))
-    return render_template('index.html')
+    return render_template('index3.html', showSuccessMsg="")
 
 
 @app.route('/thank-you')
 def thankyou():
     # print(request.args.get("name"))
-    return render_template('index2.html')
+    return render_template('index3.html', showSuccessMsg="Thank you for Registering!")
 
 
 if __name__ == "__main__":
